@@ -199,13 +199,7 @@ echo
 
 # This is to get my new repo on my new machines, this won't affect you as your
 # zshrc file will be pointing to the dotfiles-public repo
-if [ ! -d ~/github/dotfiles-latest ]; then
-	echo
-	echo "Cloning dotfiles-latest repo where my latest changes are"
-	mkdir -p ~/github
-	cd ~/github
-	git clone https://github.com/linkarzu/dotfiles-latest.git >/dev/null 2>&1
-fi
+
 
 # Automatic updates
 # Every time I log into a host I want to pull my github repos, but not cd to that dir
